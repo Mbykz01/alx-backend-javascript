@@ -1,5 +1,4 @@
-
-rt default function createReportObject(employeesList) {
+export default function createReportObject(employeesList) {
   return {
     allEmployees: employeesList,
     getNumberOfDepartments(employeesList) {
